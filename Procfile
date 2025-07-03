@@ -1,1 +1,1 @@
-web: gunicorn myproject.wsgi
+web: gunicorn fintech_project.wsgi
