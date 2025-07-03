@@ -87,8 +87,9 @@ WSGI_APPLICATION = 'fintech_project.wsgi.application'
 # https://docs.djangoproject.com/en/5.2/ref/settings/#databases
 
 DATABASES = {
-    'default': dj_database_url.config(default='postgres://...')
-    
+    'default': dj_database_url.config(
+        default='postgres://user:password@localhost:5432/dbname'
+    )
 }
 
 
